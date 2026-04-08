@@ -11,6 +11,15 @@ function div(v1, v2) {}
 function mult(v1, v2) {}
 
 // retorna o valor da raiz quadrada do valor recebido por parâmetro
-function square(v1) {}
+function square(v1) {
+    if (v1 < 0) {
+        return "Erro: número negativo";
+    }
+    return Math.sqrt(v1);
+}
+
+v1 = 4;
+v2 = 3;
 
 console.log(sum(v1, v2));
+console.log(square(v1));
