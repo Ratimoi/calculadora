@@ -1,5 +1,14 @@
 // retorna o valor da soma entre os dois parâmetros
-function sum(v1, v2) {}
+function sum(v1, v2) {
+  const n1 = Number(v1);
+  const n2 = Number(v2);
+
+  if (isNaN(n1) || isNaN(n2)) {
+    throw new Error("Os parâmetros devem ser números ou strings numéricas");
+  }
+
+  return n1 + n2;
+}
 
 // retorna o valor da subtração entre os dois parâmetros
 function sub(v1, v2) {}
