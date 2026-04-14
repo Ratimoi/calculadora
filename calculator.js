@@ -6,11 +6,11 @@ function sub(v1, v2) {
     v1 - v2;
 }
 
-// retorna o valor da divisão entre os dois cd ~/OneDrive/calculadora/calculadora
-git add calculator.js
-git commit -m "Minha alteração no calculator.js"
-git push origin main
+// retorna o valor da divisão entre os dois parâmetros
 function div(v1, v2) {
+    if (typeof v1 !== 'number' || typeof v2 !== 'number') {
+        return "Erro: ambos os parâmetros devem ser números";
+    }
     if (v2 === 0) {
         return "Erro: divisão por zero";
     }
@@ -33,3 +33,4 @@ v2 = 3;
 
 console.log(sum(v1, v2));
 console.log(square(v1));
+console.log(div(10, 2));
