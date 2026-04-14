@@ -6,7 +6,10 @@ function sub(v1, v2) {
     v1 - v2;
 }
 
-// retorna o valor da divisão entre os dois parâmetros
+// retorna o valor da divisão entre os dois cd ~/OneDrive/calculadora/calculadora
+git add calculator.js
+git commit -m "Minha alteração no calculator.js"
+git push origin main
 function div(v1, v2) {
     if (v2 === 0) {
         return "Erro: divisão por zero";
