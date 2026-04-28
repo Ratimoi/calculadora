@@ -22,4 +22,5 @@ $ node calculator.js
 <a href="https://github.com/texugoads"><img src="https://github.com/texugoads.png" width="45" height="45"></a> &nbsp;
 <a href="https://github.com/Dammerow15"><img src="https://github.com/Dammerow15.png" width="45" height="45"></a> &nbsp;
 <a href="https://github.com/Louise1904"><img src="https://github.com/Louise1904.png" width="45" height="45"></a> &nbsp;
+<a href="https://github.com/ryangarciacls-cpu"><img src="https://github.com/ryangarciacls-cpu.png" width="45" height="45"></a> &nbsp;
 
