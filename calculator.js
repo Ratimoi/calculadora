@@ -42,6 +42,7 @@ function square(v1) {
 v1 = 4;
 v2 = 3;
 
+// aparece no console
 console.log(sum(v1, v2));
 console.log(square(v1));
 console.log(div(10, 2));
